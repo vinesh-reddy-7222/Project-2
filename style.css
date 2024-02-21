@@ -1,3 +1,26 @@
+#calculator{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    border-radius: 15px;
+    max-width :500px;
+    overflow:hidden;
+}
+#display{
+    width:100%;
+    padding:25px;
+    font-size:5rem;
+    text-align:left;
+    background-color: rgb(108, 106, 156);
+    border: none;
+    color:white;
+}
+#keys{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:7px;
+    padding:25px;
+    background-color: rgb(0, 0, 15);
+}
 button{
     height: 100px;
     width: 100px;
@@ -8,4 +31,13 @@ button{
     font-weight:bold;
     border:none;
     cursor: pointer;
+}
+.operator-btn{
+    background-color: orangered;
+}
+button:hover{
+    background-color:rgb(173, 176, 116);
+}
+button:active{
+    background-color:rgb(171, 171, 115);
 }
