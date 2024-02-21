@@ -6,10 +6,10 @@
     overflow:hidden;
 }
 #display{
-    width:100%;
+    width:96.66%;
     padding:25px;
     font-size:5rem;
-    text-align:left;
+    text-align:right;
     background-color: rgb(108, 106, 156);
     border: none;
     color:white;
